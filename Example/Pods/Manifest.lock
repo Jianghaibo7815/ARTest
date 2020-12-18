@@ -1,0 +1,23 @@
+PODS:
+  - ARTest (0.1.0):
+    - SnapKit (= 5.0.1)
+  - SnapKit (5.0.1)
+
+DEPENDENCIES:
+  - ARTest (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
+
+EXTERNAL SOURCES:
+  ARTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ARTest: baad779796b413d9bcc970551fa7de5df6844363
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+
+PODFILE CHECKSUM: 93a0366062efbe9617c666690c389920924c2a91
+
+COCOAPODS: 1.8.4

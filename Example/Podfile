@@ -1,4 +1,7 @@
 use_frameworks!
+
+platform :ios, '11.0'
+
 target 'ARTest_Tests' do
   pod 'ARTest', :path => '../'
   

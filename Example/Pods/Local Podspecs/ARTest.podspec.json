@@ -1,0 +1,33 @@
+{
+  "name": "ARTest",
+  "version": "0.1.0",
+  "summary": "A short description of ARTest.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jianghaibo/ARTest",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jianghaibo": "jianghaibo01@meishubao.com"
+  },
+  "source": {
+    "git": "https://github.com/jianghaibo/ARTest.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "ARTest/Classes/**/*",
+  "frameworks": [
+    "UIKit",
+    "MapKit",
+    "ARKit",
+    "SceneKit"
+  ],
+  "dependencies": {
+    "SnapKit": [
+      "5.0.1"
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+use_frameworks!
+target 'ARTest_Tests' do
+  pod 'ARTest', :path => '../'
+  
+  
+end

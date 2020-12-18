@@ -1,0 +1,29 @@
+# ARTest
+
+[![CI Status](https://img.shields.io/travis/jianghaibo/ARTest.svg?style=flat)](https://travis-ci.org/jianghaibo/ARTest)
+[![Version](https://img.shields.io/cocoapods/v/ARTest.svg?style=flat)](https://cocoapods.org/pods/ARTest)
+[![License](https://img.shields.io/cocoapods/l/ARTest.svg?style=flat)](https://cocoapods.org/pods/ARTest)
+[![Platform](https://img.shields.io/cocoapods/p/ARTest.svg?style=flat)](https://cocoapods.org/pods/ARTest)
+
+## Example
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+## Requirements
+
+## Installation
+
+ARTest is available through [CocoaPods](https://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod 'ARTest'
+```
+
+## Author
+
+jianghaibo, jianghaibo01@meishubao.com
+
+## License
+
+ARTest is available under the MIT license. See the LICENSE file for more info.

@@ -7,8 +7,8 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'ARTest'
-  s.version          = '1.0.1'
+  s.name             = 'ARFrameTest'
+  s.version          = '1.0.2'
   s.summary          = 'git and pod test'
 
 # This description is used to generate tags and improve search results.

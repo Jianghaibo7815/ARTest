@@ -10,7 +10,7 @@ import UIKit
 import ARKit
 import SceneKit
 
-class ARSceneViewController: UIViewController {
+public class ARSceneViewController: UIViewController {
     
     @available(iOS 11.0, *)
     lazy var configuration: ARWorldTrackingConfiguration = {
@@ -37,11 +37,11 @@ class ARSceneViewController: UIViewController {
         return arv
     }()
     
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
         
     }
-    override func viewDidAppear(_ animated: Bool) {
+    public override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
         if #available(iOS 11.0, *) {
@@ -74,7 +74,7 @@ class ARSceneViewController: UIViewController {
 
 extension ARSceneViewController: ARSessionDelegate {
     @available(iOS 11.0, *)
-    func session(_ session: ARSession, didUpdate frame: ARFrame) {
+    public func session(_ session: ARSession, didUpdate frame: ARFrame) {
         print("抓取到新的帧：\(frame)")
         
         
@@ -83,7 +83,7 @@ extension ARSceneViewController: ARSessionDelegate {
 
 extension ARSceneViewController: ARSCNViewDelegate {
     @available(iOS 11.0, *)
-    func renderer(_ renderer: SCNSceneRenderer, nodeFor anchor: ARAnchor) -> SCNNode? {
+    public func renderer(_ renderer: SCNSceneRenderer, nodeFor anchor: ARAnchor) -> SCNNode? {
         let node = SCNNode()
         
         

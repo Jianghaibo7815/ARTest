@@ -17,7 +17,6 @@
 		607FACE51AFB9204008FA782 /* ARTest_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARTest_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		A6FB19024F785C44C558046A /* ARTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ARTest.podspec; path = ../ARTest.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AB71288E032E1F8A95D7CAAC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		AFD406AAAC6B8D97EC21BAA5 /* Pods-ARTest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARTest_Tests.release.xcconfig"; path = "Target Support Files/Pods-ARTest_Tests/Pods-ARTest_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DA2A4A131818151443B38F14 /* Pods-ARTest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARTest_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ARTest_Tests/Pods-ARTest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -91,7 +90,6 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				A6FB19024F785C44C558046A /* ARTest.podspec */,
 				07F93C299A7875173E14D0AE /* README.md */,
 				AB71288E032E1F8A95D7CAAC /* LICENSE */,
 			);
